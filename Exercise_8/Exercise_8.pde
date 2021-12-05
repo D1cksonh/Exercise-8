@@ -1,10 +1,12 @@
+// most of this code was taken from the MidiBus basic example, i just added and change some values to make it my own
+
 import themidibus.*; //Import the library
 
 MidiBus myBus; // The MidiBus
 
 int channel = 0;
-int pitch = 64;
-int velocity = 127;
+int pitch = 50;
+int velocity = 100;
 
 void setup() {
   size(400, 400);
